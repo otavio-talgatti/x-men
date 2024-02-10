@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>X-MEN</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="responsivo.css">
+
 </head>
+
 <body>
-    <audio src="audio/x-men.mp3" loop> audio</audio>
-    <header class="cabecalho"></header>
+    <p>
+        <audio src="audio/x-men.mp3" controls loop> audio</audio>
+    </p>
+    <header class="cabecalho">
+        <img class="logo" src="imagens/logo.svg" alt="logo x-men">
+    </header>
 
     <main class="selecao-de-personagens">
 
@@ -17,45 +32,57 @@
 
             <ul class="lista-de-personagens">
 
-                <li class="personagem" id="ciclope"><img src="imagens/card-ciclope.jpg" alt="personagem ciclope"></li>
+                <li class="personagem selecionado" id="ciclope"><img src="imagens/card-ciclope.jpg" alt="personagem ciclope"></li>
 
-                <li class="personagem" id="jean-grey"><img src="imagens/card-jean-grey.jpg" alt="personagem jean-grey"></li>
+                <li class="personagem" id="jean-grey"><img src="imagens/card-jean-grey.jpg" alt="personagem jean-grey">
+                </li>
 
-                <li class="personagem" id="lince-negra"><img src="imagens/card-lince-negra.jpg" alt="personagem lince-negra"></li>
+                <li class="personagem" id="lince-negra"><img src="imagens/card-lince-negra.jpg"
+                        alt="personagem lince-negra"></li>
 
                 <li class="personagem" id="magneto"><img src="imagens/card-magneto.jpg" alt="personagem magneto"></li>
 
                 <li class="personagem" id="noturno"><img src="imagens/card-noturno.jpg" alt="personagem noturno"></li>
 
-                <li class="personagem" id="tempestade"><img src="imagens/card-tempestade.jpg" alt="personagem tempestade"></li>
+                <li class="personagem" id="tempestade"><img src="imagens/card-tempestade.jpg"
+                        alt="personagem tempestade"></li>
 
                 <li class="personagem" id="vampira"><img src="imagens/card-vampira.jpg" alt="personagem vampira"></li>
 
-                <li class="personagem" id="wolverine"><img src="imagens/card-wolverine.jpg" alt="personagem wolverine"></li>
+                <li class="personagem" id="wolverine"><img src="imagens/card-wolverine.jpg" alt="personagem wolverine">
+                </li>
 
             </ul>
         </section>
 
         <section class="personagem-selecionado">
 
-            <img src="imagens/card-ciclope.png" alt="personagem selecionado">
+            <img class="personagem-grande" src="imagens/card-ciclope.png" alt="personagem selecionado">
 
-            <img src="imagens/card-jean-grey.png" alt="personagem selecionado">
+            <img class="personagem-grande" src="imagens/card-jean-grey.png" alt="personagem selecionado">
 
-            <img src="imagens/card-lince-negra.png" alt="personagem selecionado">
+            <img class="personagem-grande" src="imagens/card-lince-negra.png" alt="personagem selecionado">
 
-            <img src="imagens/card-magneto.png" alt="personagem selecionado">
+            <img class="personagem-grande" src="imagens/card-magneto.png" alt="personagem selecionado">
 
-            <img src="imagens/card-noturno.png" alt="personagem selecionado">
+            <img class="personagem-grande" src="imagens/card-noturno.png" alt="personagem selecionado">
 
-            <img src="imagens/card-tempestade.png" alt="personagem selecionado">
+            <img class="personagem-grande" src="imagens/card-tempestade.png" alt="personagem selecionado">
 
-            <img src="imagens/card-vampira.png" alt="personagem selecionado">
+            <img class="personagem-grande" src="imagens/card-vampira.png" alt="personagem selecionado">
 
-            <img src="imagens/card-wolverine.png" alt="personagem selecionado">
+            <img class="personagem-grande" src="imagens/card-wolverine.png" alt="personagem selecionado">
+
+            <div class="informacoes-personagem">
+
+                <h2 class="nome-personagem" id="nome-personagem">ciclope</h2>
+
+                <p class="descricao-personagem" id="descricao-personagem">Seu gene-X se ativou ainda na adolescência fazendo com que ele disparase rajadas ópticas pelos olhos. </p>
+            </div>
 
         </section>
 
     </main>
 </body>
+
 </html>
